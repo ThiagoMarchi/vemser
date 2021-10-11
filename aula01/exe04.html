@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>Html</h1>
+
+    <form>
+        <label for="username">Usuário</label>
+        <input id="username" type="text" name="username" placeholder="digite um nome de usuário" required>
+        <br>
+        <br>
+        <label for="email">E-mail</label>
+        <input id="email" type="email" name="email" placeholder="digite um e-mail" required>
+        <br>
+        <br>
+        <label for="password">Senha</label>
+        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+        
+        <p>Selecione sua idade:</p>
+        <input type="radio" name="age" id="option1" value="0-25">
+        <label for="option1">0 a 25 anos</label>
+        <input type="radio" name="age" id="option2" value="26-50">
+        <label for="option2">26 a 50 anos</label>
+        <input type="radio" name="age" id="option3" value="51+">
+        <label for="option3">51 ou mais anos</label>
+
+        <br>
+        <br>
+
+        <label for="question">Pergunta secreta</label>
+        <select name="question" id="question">
+            <option value="q1">Qual seu animal favorito?</option>
+            <option value="q2">Qual sua cor favorita?</option>
+            <option value="q3">Cidade de nascimento?</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="answer">Resposta secreta</label>
+        <input type="text" name="answer" id="answer" required>
+
+        <br>
+        <br>
+
+        <label for="bio">Sua Biografia</label>
+        <textarea name="bio" id="bio" cols="40" rows="10" required></textarea>
+
+        <br>
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
