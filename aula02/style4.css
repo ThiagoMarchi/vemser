@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* --- Home --- */
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(235, 232, 232);
+}
+
+header{
+    background-color: rgb(163, 20, 20);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+header img {
+    border: 10px solid white;
+    border-radius: 100%;
+}
+
+small {
+    padding-left: 10px;
+    vertical-align: 50%;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+    /* text-decoration: underline; */
+}
+
+
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.conteudo-img {
+    text-align: center;
+    margin: 50px;
+}
+
+.cogu-vermelho {
+    display: inline;
+    padding-right: 25px;
+}
+
+.cogu-vermelho:hover {
+    color: #F00001;
+    font-size: 25px;
+}
+
+.cogu-verde {
+    display: inline;
+    padding-right: 25px;
+}
+
+.cogu-verde:hover {
+    color: #00AD36;
+    font-size: 25px;
+}
+
+.cogu-azul {
+    display: inline;
+    padding-right: 25px;
+}
+
+.cogu-azul:hover {
+    color: #006AD7;
+    font-size: 25px;
+}
+
+.cogu-dourado {
+    display: inline;
+    padding-right: 25px;
+}
+
+.cogu-dourado:hover {
+    color: #B38100;
+    font-size: 25px;
+}
+
+p {
+    line-height: 20px;
+    text-align: justify;
+}
+
+.mapa {
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+}
+
+li {
+    margin-right: 20px;
+}
+
+/* .conteudo {
+    display: inline;
+} */
+
+footer {
+    background-color: rgb(163, 20, 20);
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+    position: absolute;
+    width:100%;
+    bottom: 0;
+}
+
+address {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: normal;
+    color: white;
+}
+
+/* --- Sobre --- */
+
+.video {
+    margin: 25px;
+    text-align: center;
+}
+
+/* --- Contato --- */
+
+.contact {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact p {
+    text-align: center;
+    padding-bottom: 10px;
+}

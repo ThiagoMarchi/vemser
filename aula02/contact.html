@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header>
+        <nav>
+
+            <a href="home.html" alt="home"><img src="img/cogumelo.jpeg" alt="cogumelo" width="50"></a>
+
+            <small>Melhores alunos do Vemser de todos os tempos!!</small>
+
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <form class="contact">
+
+        <label for="nome">Digite seu nome completo: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite aqui." required>
+
+        <br><br>
+
+        <label for="email">Digite seu e-mail: </label>
+        <input type="email" name="email" id="email" placeholder="Digite aqui." required>
+
+        <br><br>
+
+        <label for="question">Qual o motivo do contato</label>
+        <select name="question" id="question">
+
+            <option value="q1">Dúvida sobre cogumelo?</option>
+            <option value="q2">HTML é easy demais?</option>
+            <option value="q3">CSS é top?</option>
+
+        </select>
+
+        <br><br>
+
+            <p>Sua mensagem</p>
+            <textarea name="bio" id="bio" cols="40" rows="10" required></textarea>
+
+        <br>
+
+        <input type="submit" value="Enviar">
+        
+    </form>
+
+    <br>
+
+    <footer>
+        <nav class="container">
+
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+
+            <address>AV. Andarai 531 - Porto Alegre</address>
+
+        </nav>
+    </footer>
+</body>
+</html>
