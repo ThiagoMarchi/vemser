@@ -5,174 +5,216 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header style="background-color: #1A75C1">
+    <header>
 
-        <img src="img/logo.png" alt="logo-ecos">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-        <input type="search" name="search" id="search" placeholder="Pesquisar" style="width: 350px;">
-        <img src="img/search-2287049-1907871.png" alt="search" style="width: 16px;">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-        <input type="date" name="date" id="date">
-        <img src="img/filter.png" alt="filter" style="width: 19px;">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-        <img src="img/Avatar.png" alt="avatar">
-        <img src="img/bars.png" alt="bars">
+        <nav class="navegacao">
+            <img src="img/logo.png" alt="logo-ecos" class="logo">
+            
+            <div class="imput">
+                <input type="search" name="search" id="search" placeholder="    Pesquisar" style="width: 350px;">
+                <img src="img/search-2287049-1907871.png" alt="search" style="width: 16px;">
+                
+                <input type="date" name="date" id="date">
+                <img src="img/filter.png" alt="filter" style="width: 19px;">
+            </div>
+            
+            <div>
+                <img src="img/Avatar.png" alt="avatar">
+                <img src="img/bars.png" alt="bars">
+            </div>
+        </nav>
 
     </header>
 
-    <main>
+    
+    <div class="conteudo_principal">
 
-        <h1>Notícias</h1>
-
-        <p><strong>10/10/2021</strong></p>
-
-        <div>
-            <img src="img/Rectangle 3448.jpg" alt="professor joão">
-            <p>Novo post BLOG DBC!</p>
-        </div>
         
-        <div>
-            <img src="img/Rectangle 3442.jpg" alt="foto2">
-            <p>Workshop de Kanban! 🚀</p>
-        </div>
+        <main class="principal_esquerda">
+            
+            
+            <div  class="container_global">
 
-        <div>
-            <img src="img/Rectangle 3444.jpg" alt="foto3">
-            <p>DBC Impact: Workshop Camunda!</p>
-        </div>
+                <h1> Notícias </h1>
+                <p class="date"><strong>10/10/2021</strong></p>
+                <div class="conteudo">
+                
+                        
+                        <div>
+                            <img src="img/Rectangle 3448.jpg" alt="professor joão">
+                            <p>Novo post BLOG DBC!</p>
+                        </div>
+                        <div>
+                            <img src="img/Rectangle 3448.jpg" alt="foto2">
+                            <p>Workshop de Kanban! 🚀</p>
+                        </div>
+                        <div>
+                            <img src="img/Rectangle 3444.jpg" alt="foto3">
+                            <p>DBC Impact: Workshop Camunda!</p>
+                        </div>
+                
+                </div>
+                <p class="date"> <strong>09/10/2021</strong></p>
+                <div class="conteudo">
 
-        <br>
+                    
+                    <div>
+                        <img src="img/Rectangle 8-1.jpg" alt="foto4">
+                        <p>LIVE: Novo Universo DBC Prepare-se</p>
+                    </div>
 
-        <p><strong>09/10/2021</strong></p>
+                    <div>
+                        <img src="img/Frame 3717.jpg" alt="foto4">
+                        <p>Trilhas de aprendizagem recomendadas</p>
+                    </div>
+                    
+                    <div>
+                    <img src="img/Rectangle 3446-1.jpg" alt="foto4">
+                    <p>Arquitetura de Micro Serviços</p>
+                    </div>
+
+                </div>
+                <p class="date"> <strong>08/10/2021</strong></p>
+                <div class="conteudo">
+                    
+
+                    <div>
+                        <img src="img/Rectangle 8.jpg" alt="foto4">
+                        <p>LIVE: Novo Universo DBC Prepare-se</p>
+                    </div>
+
+                    <div>
+                    <img src="img/Frame 3708.jpg" alt="foto4">
+                    <p>Trilhas de aprendizagem recomendadas</p>
+                    </div>
+                    
+                    <div>
+                    <img src="img/Rectangle 3446.jpg" alt="foto4">
+                    <p>Arquitetura de Micro Serviços</p>
+                    </div>
+
+                </div>
+
+                <h2>Carregar mais...</h2>
+
+            </div>
+
+            
+
+        </main>
+
+        <aside class="principal_direita">
+
+            <h2>Aniversariantes</h2>
+
+            
+
+            <div class="conteudo_aside">
+                <h3>Hoje</h3>
+                <div class="info_aside">
+                    <img src="img/Ellipse 1-1.png" alt="foto-paulo">
+                    <div>
+                        <p><strong>Paulo Marcos de Oliveira Brandao</strong></p>
+                        <p><small>paulo.brandao@dbccompany.com.br</small></p>
+                        <p><small>9 de outubro</small></p>
+                    </div>
+                    <input type="submit" value="Enviar parabéns">
+                </div>
+                <input type="text" name="write" id="write" placeholder="Escrever mensagem" class="mensagem">
+                
+            </div>
+
+            <div class="separacao"></div>
+
+            
+
+            <div class="conteudo_aside">
+                <h3 class="proximos">Próximos Aniversariantes</h3>
+                <div class="info_aside">
+                    <img src="img/Ellipse 2.jpg" alt="foto-francisco">
+                    <div class="info_pessoal">
+                        <p><strong>Francisco gutenberg da silva filho</strong></p>
+                        <p><small>francisco.silva@dbccompany.com.br</small></p>
+                        <p><small>6 de outubro</small></p>
+                    </div>
+                    <input type="submit" value="Enviar parabéns">
+                </div>
+                <input type="text" name="write" id="write" placeholder="Escrever mensagem" class="mensagem">
+            </div>
+            
+
+            <div class="conteudo_aside">
+                <div class="info_aside">
+                    <img src="img/Ellipse 3.jpg" alt="foto-anderson">
+                    <div class="info_pessoal">
+                        <p><strong>Anderson Souza</strong></p>
+                        <p><small>anderson.souza@dbccompany.com.br</small></p>
+                        <p><small>13 de outubro</small></p>
+                    </div>
+                    <input type="submit" value="Enviar parabéns">
+                </div>
+                <input type="text" name="write" id="write" placeholder="Escrever mensagem" class="mensagem">
+            </div>
+            
+            <div class="conteudo_aside">
+                <div class="info_aside">
+                    <img src="img/Ellipse 4.jpg" alt="foto-taner">
+                    <div class="info_pessoal">
+                        <p><strong>Taner Moroni Correa Goncalves</strong></p>
+                        <p><small>taner.goncalves@dbccompany.com.br</small></p>
+                        <p><small>11 de outubro</small></p>
+                    </div>
+                    <input type="submit" value="Enviar parabéns">
+                </div>
+                <input type="text" name="write" id="write" placeholder="Escrever mensagem" class="mensagem">
+            </div>
+            
+            <div class="conteudo_aside">
+                <div class="info_aside">
+                    <img src="img/Ellipse 6.jpg" alt="foto-jonathan">
+                    <div class="info_pessoal">
+                        <p><strong>Jonathan maia</strong></p>
+                        <p><small>jonathan.mferreira@dbccompany.com.br</small></p>
+                        <p><small>14 de outubro</small></p>
+                    </div>
+                    <input type="submit" value="Enviar parabéns">
+                </div>
+                <input type="text" name="write" id="write" placeholder="Escrever mensagem" class="mensagem">
+            </div>
+
+            <input type="button" value="Próximos aniversários" class="proximos_anivers">
+
+            <article>
+
+                <h1>Eventos</h1>
+                <img src="img/image 1.png" alt="imagem-eventos">
         
-        <div>
-            <img src="img/Rectangle 8-1.jpg" alt="foto4">
-            <p>LIVE: Novo Universo DBC Prepare-se</p>
-        </div>
+            </article>
+            
+            
+        </aside>
+    </div>
 
-        <div>
-            <img src="img/Frame 3717.jpg" alt="foto4">
-            <p>Trilhas de aprendizagem recomendadas</p>
-        </div>
-
-        <div>
-            <img src="img/Rectangle 3446-1.jpg" alt="foto4">
-            <p>Arquitetura de Micro Serviços</p>
-        </div>
-
-        <br>
-
-        <p><strong>08/10/2021</strong></p>
-        
-        <div>
-            <img src="img/Rectangle 8.jpg" alt="foto4">
-            <p>LIVE: Novo Universo DBC Prepare-se</p>
-        </div>
-
-        <div>
-            <img src="img/Frame 3708.jpg" alt="foto4">
-            <p>Trilhas de aprendizagem recomendadas</p>
-        </div>
-
-        <div>
-            <img src="img/Rectangle 3446.jpg" alt="foto4">
-            <p>Arquitetura de Micro Serviços</p>
-        </div>
-
-        <br>
-
-        <h2>Carregar mais...</h2>
-        <br>
-
-    </main>
-
-    <aside>
-
-        <h1>Aniversariantes</h1>
-        <h3>Hoje</h3>
-        <img src="img/Ellipse 1-1.png" alt="foto-paulo">
-        <p>Paulo Marcos de Oliveira Brandao</p>
-        <p>paulo.brandao@dbccompany.com.br</p>
-        <p>9 de outubro</p>
-        <input type="text" name="write" id="write" placeholder="Escrever mensagem">
-        <input type="submit" value="Enviar parabéns">
-        <hr>
-
-        <h3>Próximos Aniversariantes</h3>
-
-        <img src="img/Ellipse 2.jpg" alt="foto-francisco">
-        <p>Francisco gutenberg da silva filho</p>
-        <p>francisco.silva@dbccompany.com.br</p>
-        <p>6 de outubro</p>
-        <input type="text" name="write" id="write" placeholder="Escrever mensagem">
-        <input type="submit" value="Enviar parabéns">
-        <br><br>
-
-        <img src="img/Ellipse 3.jpg" alt="foto-francisco">
-        <p>Anderson Souza</p>
-        <p>anderson.souza@dbccompany.com.br</p>
-        <p>13 de outubro</p>
-        <input type="text" name="write" id="write" placeholder="Escrever mensagem">
-        <input type="submit" value="Enviar parabéns">
-        <br><br>
-
-        <img src="img/Ellipse 4.jpg" alt="foto-francisco">
-        <p>Taner Moroni Correa Goncalves</p>
-        <p>taner.goncalves@dbccompany.com.br</p>
-        <p>11 de outubro</p>
-        <input type="text" name="write" id="write" placeholder="Escrever mensagem">
-        <input type="submit" value="Enviar parabéns">
-        <br><br>
-
-        <img src="img/Ellipse 6.jpg" alt="foto-francisco">
-        <p>Jonathan Maia</p>
-        <p>jonathan.mferreira@dbccompany.com.br</p>
-        <p>14 de outubro</p>
-        <input type="text" name="write" id="write" placeholder="Escrever mensagem">
-        <input type="submit" value="Enviar parabéns">
-        <br><br><br>
-
-        <input type="button" value="Próximos aniversários">
-
-    </aside>
-
-    <br>
-
-    <article>
-
-        <h1>Eventos</h1>
-        <img src="img/image 1.png" alt="imagem-eventos">
-
-    </article>
+   
 
     <br>
 
     <footer>
 
-        <hr>
+        <ul>
+            <li><img src="img/u_users-alt.png" alt="contato"><a href="#"> Contatos</a></img></a></li>
+            <li><img src="img/fi_mail.png" alt="email"><a href="#"> E-mail</a></img></li>
+            <li><img src="img/u_sitemap.png" alt="processos"><a href="#"> Processos</a></img></li>
+            <li><img src="img/fi_tool.png" alt="chamados"><a href="#"> Chamados</a></img></li>
+            <li><img src="img/u_clock-three.png" alt="ponto"><a href="#"> Ponto</a></img></li>
+            <li><img src="img/u_chart-pie-alt.png" alt="BI"><a href="#"> BI - DBC</a></img></li>
 
-        <img src="img/u_users-alt.png" alt="contatos"> 
-        Contatos
-        
-        <img src="img/fi_mail.png" alt="email"> 
-        E-mail
-        
-        <img src="img/u_sitemap.png" alt="mapa"> 
-        Processos
-        
-        <img src="img/fi_tool.png" alt="chamados"> 
-        Chamados
-        
-        <img src="img/u_clock-three.png" alt="ponto"> 
-        Ponto
-        
-        <img src="img/u_chart-pie-alt.png" alt="BI"> 
-        BI - DBC  
+
+        </ul>
 
     </footer>
 </body>

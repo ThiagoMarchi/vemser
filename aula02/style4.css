@@ -3,7 +3,7 @@
 /* --- Home --- */
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -66,7 +66,6 @@ h1 {
 
 .cogu-vermelho:hover {
     color: #F00001;
-    font-size: 25px;
 }
 
 .cogu-verde {
@@ -76,7 +75,6 @@ h1 {
 
 .cogu-verde:hover {
     color: #00AD36;
-    font-size: 25px;
 }
 
 .cogu-azul {
@@ -86,7 +84,6 @@ h1 {
 
 .cogu-azul:hover {
     color: #006AD7;
-    font-size: 25px;
 }
 
 .cogu-dourado {
@@ -96,7 +93,6 @@ h1 {
 
 .cogu-dourado:hover {
     color: #B38100;
-    font-size: 25px;
 }
 
 p {
@@ -146,12 +142,37 @@ address {
 
 /* --- Contato --- */
 
+.conteudo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .contact {
-    text-align: center;
+    background-color: #A31314;
+    color: white;
+    border-radius: 20px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 20px;
 }
 
 .contact p {
-    text-align: center;
-    padding-bottom: 10px;
+    margin: 10px 0;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.enviar {
+    align-self: center;
+    width: 100px;
 }

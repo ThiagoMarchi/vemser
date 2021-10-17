@@ -24,37 +24,29 @@
         </nav>
     </header>
 
-    <form class="contact">
+    <div class="conteudo">
+        <form class="contact">
+            <div class="inputs">
+                <label for="nome">Digite seu nome completo: </label>
+                <input type="text" name="nome" id="nome" placeholder="Digite aqui." required>
+                <label for="email">Digite seu e-mail: </label>
+                <input type="email" name="email" id="email" placeholder="Digite aqui." required>
+                <label for="question">Qual o motivo do contato</label>
+                <select name="question" id="question">
+                    <option value="q1">Dúvida sobre cogumelo?</option>
+                    <option value="q2">HTML é easy demais?</option>
+                    <option value="q3">CSS é top?</option>
+                </select>
 
-        <label for="nome">Digite seu nome completo: </label>
-        <input type="text" name="nome" id="nome" placeholder="Digite aqui." required>
+                <p>Sua mensagem</p>
+                <textarea name="bio" id="bio" cols="40" rows="10" required></textarea>
+                <input type="submit" value="Enviar" class="enviar">
 
-        <br><br>
-
-        <label for="email">Digite seu e-mail: </label>
-        <input type="email" name="email" id="email" placeholder="Digite aqui." required>
-
-        <br><br>
-
-        <label for="question">Qual o motivo do contato</label>
-        <select name="question" id="question">
-
-            <option value="q1">Dúvida sobre cogumelo?</option>
-            <option value="q2">HTML é easy demais?</option>
-            <option value="q3">CSS é top?</option>
-
-        </select>
-
-        <br><br>
-
-            <p>Sua mensagem</p>
-            <textarea name="bio" id="bio" cols="40" rows="10" required></textarea>
-
-        <br>
-
-        <input type="submit" value="Enviar">
+            </div>
+                
         
-    </form>
+        </form>
+    </div>
 
     <br>
 
