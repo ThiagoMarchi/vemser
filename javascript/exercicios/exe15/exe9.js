@@ -1,0 +1,1 @@
+// 6) Leia 5 valores numéricos do usuário e calcule seu somatório utilizando o laço Do While;

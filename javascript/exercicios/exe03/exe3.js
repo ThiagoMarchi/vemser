@@ -6,8 +6,8 @@
    Para a variável isValueEmpty você precisa solicitar uma informação para o usuário e deve ter certeza que essa informação não é nenhum dos valores a seguir:
    null, undefined ou um texto vazio ('') */
 
-let isFriday = prompt("Hoje é sexta-feira?")
-if(isFriday === "sim") {
+let isFriday = confirm("Hoje é sexta-feira?")
+if(isFriday == "ok") {
     alert('true')
 }else alert('true')
 

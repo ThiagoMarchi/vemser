@@ -1,0 +1,1 @@
+// 4) Faça um algoritmo que apresente o quadrado de cada um dos números pares entre 1 e 100;
