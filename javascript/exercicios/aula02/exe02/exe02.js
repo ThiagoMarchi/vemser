@@ -1,4 +1,4 @@
-/* 2) Faça um programa que calcule a soma dos primeiros 50 números pares; */
+// 2) Faça um programa que calcule a soma dos primeiros 50 números pares;
 
 function somaDosPares(x){
     let soma = 0;
