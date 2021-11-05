@@ -1,0 +1,31 @@
+{
+  "colaboradores": [
+    {
+      "nome": "admin",
+      "email": "a",
+      "senha": "a",
+      "id": 0
+    },
+    {
+      "nome": "atualizado",
+      "dataNascimento": "12/12/2012",
+      "email": "atualizado@gmail.com",
+      "senha": "atualizado",
+      "id": 3
+    },
+    {
+      "nome": "atualizado",
+      "dataNascimento": "12/12/2012",
+      "email": "atualizado@gmail.com",
+      "senha": "atualizado",
+      "id": 6
+    },
+    {
+      "nome": "Thiago Marchi de Morais",
+      "dataNascimento": "12/06/1997",
+      "email": "thiago@dbc.com",
+      "senha": "Thi@go123",
+      "id": 7
+    }
+  ]
+}
