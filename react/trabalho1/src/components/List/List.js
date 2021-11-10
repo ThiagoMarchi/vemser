@@ -1,6 +1,6 @@
 import styles from './List.module.css';
 
-function Menu ({itens,localDosItens}){
+function List ({itens,localDosItens}){
 
   return(
     <div className={localDosItens === '' ? styles.teste : styles.teste1}>
@@ -14,4 +14,4 @@ function Menu ({itens,localDosItens}){
   );
 }
 
-export default Menu;
+export default List;
