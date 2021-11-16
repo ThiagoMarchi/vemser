@@ -1,0 +1,34 @@
+h1 {
+  color: brown;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  color: red;
+}
+
+.listaTrabalhadores{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px 45px 0 0;
+
+}
+.trabalhador{
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
