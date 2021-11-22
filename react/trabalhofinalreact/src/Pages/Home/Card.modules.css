@@ -1,0 +1,31 @@
+.divPrincipalHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30rem;
+  border: 1px solid black;
+  border-radius: 1.1rem;
+  gap: 1.2rem;
+  cursor: pointer;
+}
+
+.divPrincipalHome img {
+  width: 85%;
+  height: 50%;
+  border-radius: 1.1rem;
+}
+
+.divPrincipalHome h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.divPrincipalHome p {
+  font-size: 1rem;
+  text-align: left;
+  text-indent: 1.5rem;
+  margin: 0 2rem;
+}
+

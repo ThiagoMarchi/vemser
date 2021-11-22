@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+html {
+  font: 400 12px 'Roboto';
+  background-color: lavender;
+}
+
+@media (min-width: 800px){
+  html {font: 400 14px 'Roboto'}
+}
+
+@media (min-width: 1000px){
+  html {font: 400 16px 'Roboto'}
+}
+
+.divContainerApp {
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ flex-direction: center;
+ width: 100%;
+}
