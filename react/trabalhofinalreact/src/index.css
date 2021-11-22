@@ -17,6 +17,7 @@
 html {
   font: 400 12px 'Roboto';
   background-color: white;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 800px){

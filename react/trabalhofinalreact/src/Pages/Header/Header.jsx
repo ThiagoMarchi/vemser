@@ -14,7 +14,7 @@ export default function Header () {
     setHeight(height === '4rem' ? '20rem' : '4rem')}
 
   return (
-    <div className="divPrincipal" style = {{height: height}}>
+    <div className="divPrincipal" style = {{height: height}} id="home">
       <a className="iconHeader" href="#Home">
         <ImNewspaper className="news"
         onClick={() => voltarAoHome()}
