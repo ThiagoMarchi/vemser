@@ -4,18 +4,38 @@ export default function Menu() {
   return(
     <nav className="navHeader" >
     <ul>
-      <li
-      onClick={() => redirecionamentoDePagina('science')}
-      >Ciência</li>
-      <li
-      onClick={() => redirecionamentoDePagina('technology')}
-      >Tecnologia</li>
-      <li
-      onClick={() => redirecionamentoDePagina('health')}
-      >Saúde</li>
-      <li
-      onClick={() => redirecionamentoDePagina('politics')}
-      >Política</li>
+      <li>
+        <a 
+        href="#Ciencia" 
+        onClick={() => redirecionamentoDePagina('science')} 
+        > 
+          Ciência 
+        </a>  
+      </li>
+      <li>
+        <a 
+        href="#Tecnologia"
+        onClick={() => redirecionamentoDePagina('technology')} 
+        > 
+          Tecnologia 
+        </a>  
+      </li>
+      <li>
+        <a 
+        href="#Saude"
+        onClick={() => redirecionamentoDePagina('health')} 
+        > 
+          Saúde 
+        </a>  
+      </li>
+      <li>
+        <a 
+        href="#Politica"
+        onClick={() => redirecionamentoDePagina('politics')} 
+        > 
+          Política 
+        </a>  
+      </li>
     </ul>
   </nav>
   )

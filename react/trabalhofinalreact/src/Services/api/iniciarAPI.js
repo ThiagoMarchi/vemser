@@ -3,20 +3,21 @@ import axios from "axios"
 export default function iniciarAPI(section) {
   let url = `https://api.nytimes.com/svc/topstories/v2/${section}.json`
   let key = 'TG5gtmnPFls13oyPaueVeUxzgA1i8tGK'
- 
- 
+
+
   axios.get(`${url}?api-key=${key}`)
     .then(resp => resp.data)
-    .then(resp => resp.results)
-    .then(i => {
+    .then(data => data.results)
+    .then(i  => {
       document.getElementById('conteudo').innerHTML = ''
+      console.log(i[10].multimedia, `url: ${i[10].multimedia[0].url}`)
 
       for(let x=10; x <= 21; x++) {
       
-      const d = document.createElement('a')
-      d.className = 'divPrincipalHome'
-      d.setAttribute('href', i[x].short_url)
-      d.setAttribute('target', '_blank' )
+      const container  = document.createElement('a')
+      container.className = 'divPrincipalHome'
+      container.setAttribute('href', i[x].short_url)
+      container.setAttribute('target', '_blank' )
 
       const description = document.createElement('p')
       description.innerHTML = i[x].abstract
@@ -36,13 +37,12 @@ export default function iniciarAPI(section) {
 
       const conteudo = document.getElementById('conteudo')
 
-      d.append(tittle, imagem,  description,  byline, date)
-      conteudo.appendChild(d)
+      container.append(tittle, imagem,  description,  byline, date)
+      conteudo.appendChild(container)
 
       }
     }
   )
-    
-
+  .catch(error => console.log(error))
 }
 

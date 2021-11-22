@@ -29,3 +29,11 @@
   margin: 0 2rem;
 }
 
+.divPrincipalHome:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

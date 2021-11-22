@@ -15,15 +15,15 @@ export default function Header () {
 
   return (
     <div className="divPrincipal" style = {{height: height}}>
-      <div className="iconHeader">
+      <a className="iconHeader" href="#Home">
         <ImNewspaper className="news"
         onClick={() => voltarAoHome()}
         />
         <FaHamburger className="hamb" 
           onClick = {() => abrirMenu()}
         />
-        <h1 onClick={() => voltarAoHome()} >Home</h1>
-      </div>
+        <h1 onClick={() => voltarAoHome()} >Home </h1>
+      </a>
         <Menu />
     </div>
   )

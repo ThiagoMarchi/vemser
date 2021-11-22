@@ -1,9 +1,11 @@
 .divPrincipalFooter {
-  background-color: grey;
+  display: flex;
+  background-color: #353a40;
   padding: 1rem;
   height: 4rem;
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 100%;
+  color: white;
 }
