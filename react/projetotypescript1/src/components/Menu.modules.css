@@ -1,0 +1,25 @@
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li {
+  color: white;
+}
+
+#btnPessoa {
+  display: none;
+  gap: 20px;
+
+}
+
+#btnPessoa button {
+  font-weight: bold;
+  outline: none;
+}
+
+.btnBrown{
+  background-color: brown;
+  border: none;
+}

@@ -1,0 +1,23 @@
+header {
+  background-color: black;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+a {
+  outline: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.conteudo_header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 15px;
+}
