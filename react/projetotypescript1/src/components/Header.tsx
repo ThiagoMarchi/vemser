@@ -4,15 +4,17 @@ import './Header.modules.css';
 
 const Header = () => {
   return (
-    <header>
-        <div className="conteudo_header">
-          <a href="/">
-            <img width="100px" src={logo} alt="logo" />
-          </a>
-          <a href="/">VemSer DC</a>  
-        </div>
-        <Menu />
-    </header>
+    <div className="header-background">
+      <header>
+          <div className="conteudo_header">
+            <a href="/">
+              <img width="100px" src={logo} alt="logo" />
+            </a>
+            <a href="/">VemSer DC</a>
+          </div>
+          <Menu />
+      </header>
+    </div>
   )
 }
 

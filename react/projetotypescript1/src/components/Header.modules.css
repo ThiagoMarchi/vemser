@@ -1,9 +1,17 @@
+.header-background {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header {
-  background-color: black;
   padding: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1200px;  
   width: 100%;
 }
 
@@ -11,7 +19,7 @@ a {
   outline: none;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .conteudo_header {

@@ -17,7 +17,7 @@ const AuthProvider: React.FC<any> = ({ children }) => {
       setAuth(true);
       alterarStatus()
     }catch(e) {
-      alert("Senha ou usuario incorreto")
+      alert("Senha ou usuário incorreto  ;(")
       setAuth(false)
     }    
   }
