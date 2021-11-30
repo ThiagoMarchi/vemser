@@ -89,12 +89,12 @@ const Pessoa = () => {
         <form>
           <div>
             <label htmlFor="nome">Nome</label>
-            <input type="text" id="nome" name="nome" value={formik.values.nome} onChange={(e) => {formik.setFieldValue('nome', e.target.value)}} placeholder="nome" />
+            <input type="text" id="nome" name="nome" value={formik.values.nome} onChange={(e) => {formik.setFieldValue('nome', e.target.value)}} placeholder="Digite seu nome" />
           </div>
 
           <div>
             <label htmlFor="email">E-mail</label>
-            <input type="email "id="email" name="email" value={formik.values.email} onChange={(e) => {formik.setFieldValue('email', e.target.value)}} placeholder="email" />
+            <input type="email "id="email" name="email" value={formik.values.email} onChange={(e) => {formik.setFieldValue('email', e.target.value)}} placeholder="Digite seu e-mail" />
           </div>
 
           <div>
@@ -104,7 +104,7 @@ const Pessoa = () => {
 
           <div>
             <label htmlFor="cpf">CPF</label>
-            <input type="text" id="cpf" name="cpf" value={formik.values.cpf} onChange={(e) => {formik.setFieldValue('cpf', e.target.value)}} placeholder="cpf" />
+            <input type="text" id="cpf" name="cpf" value={formik.values.cpf} onChange={(e) => {formik.setFieldValue('cpf', e.target.value)}} placeholder="Digite seu CPF" />
           </div>
 
           <div className="buttons-forms">
