@@ -1,0 +1,28 @@
+.pessoa-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pessoa-header button {
+  font-size: 20px;
+}
+
+.edit {
+  color: brown;
+}
+
+.edit:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.delete {
+  color: grey;
+}
+
+.delete:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

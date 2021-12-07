@@ -1,0 +1,15 @@
+.loader {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 200vh;
+  margin: 0;
+  padding: 0;
+  background-color: #0009;
+
+}
+
+.loader .loaders {
+  min-height: 20vh;
+  z-index: 20;
+}
